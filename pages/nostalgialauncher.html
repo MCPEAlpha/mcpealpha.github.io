@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NostalgiaLauncher</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="../index.html">MCPEAlpha</a></h1>
+    </header>
+    <nav class="breadcrumb">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/download-mcpe.html">Download MCPE</a></li>
+            <li class="active">NostalgiaLauncher</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="content-left">
+            <h2>NostalgiaLauncher</h2>
+            <p>NostalgiaLauncher is an Android app for downloading, installing, and easily storing versions of Minecraft
+                PE
+                Alpha. All versions are taken from <a href="https://archive.org/download/MCPEAlpha"
+                    target="_blank">Archive.org</a>. All downloaded versions are stored in the app folder, and are
+                available
+                for quick installation.</p>
+            <br>
+            <div class="gallery">
+                <h3>Screenshots</h3>
+                <div class="gallery-images">
+                    <img src="../data/Screenshot_2024-09-29-10-48-01-974_net.eqozqq.nlauncher.jpg"
+                        onclick="openModal(this)">
+                    <img src="../data/Screenshot_2024-09-29-10-48-08-373_net.eqozqq.nlauncher.jpg"
+                        onclick="openModal(this)">
+                </div>
+                <p>Click on the image to open it in full screen mode</p>
+            </div>
+            <br>
+            <p>Follow LegacyMinecraftPE's Discord server for updates on the app: <a href="https://discord.gg/4fv4RrTav4" target="_blank">https://discord.gg/4fv4RrTav4</a></p>
+        </div>
+        <div class="content-right" style="margin-left: 48px;">
+            <h2>Download</h2>            
+            <a href="https://www.mediafire.com/file/ad4xlbgt4vr3h1h/NL2_1.0.1.apk/file" class="btn btn-green">NostalgiaLauncher 1.0.1</a>
+        </div>
+
+        <div class="modal" onclick="closeModal(event)">
+            <span class="close" onclick="closeModal(event)">×</span>
+            <img class="modal-content" id="modal-img">
+        </div>
+    </div>
+
+    <footer>
+        <p>MCPEAlpha / When distributing content from this site, please include the URL of this site / This site is not affiliated with Mojang / <a href="https://discord.gg/4fv4RrTav4">Join our Discord</a></p>
+    </footer>
+
+    <script src="../js/gallerymodal.js"></script>
+</body>
+
+</html>

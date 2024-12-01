@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skins for Minecraft PE 0.8.1</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="../index.html">MCPEAlpha</a></h1>
+    </header>
+    <nav class="breadcrumb">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="active">Skins for Minecraft PE 0.8.1</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="content-left">
+            <h2>Skins for Minecraft PE 0.8.1</h2>
+            <div class="gallery">
+                <h3>Screenshots</h3>
+                <div class="gallery-images">
+                    <img src="../data/skins-in-mcpe-0-8-1-v0-1ia3awioj67b1.jpg"
+                        onclick="openModal(this)">
+                    <img src="../data/skins-in-mcpe-0-8-1-v0-hnfiwpcoj67b1.jpg"
+                        onclick="openModal(this)">
+                </div>
+                <p>Click on the image to open it in full screen mode</p>
+            </div>
+            <div class="modal" onclick="closeModal(event)">
+                <span class="close" onclick="closeModal(event)">×</span>
+                <img class="modal-content" id="modal-img">
+            </div>
+            <p>Officially, skins do not yet exist in version 0.8.1. You can only change Steve's texture, but then it will be visible to every player.</p>
+            <p>But there is an unofficial client created by the <a href="https://github.com/GameHerobrine/" target="_blank">GameHerobrine</a>, in which you can use your skins, and they will be visible to every player who uses this client.</p>
+            <h3>How does it work?</h3>
+            <p>All skins are connected to a specific nickname of the player. The skin files are located in the GitHub repository, where they are taken from in the client, and are shown for each nickname.</p>
+            <h3>How do I add my own skin?</h3>
+            <p>To add your skin, you can write to Discord <u>@eqozqq</u> or mail me <a href="mailto:eqozqq@gmail.com">eqozqq@gmail.com</a>. In the message write that you want to add your skin, attach the skin file (please change the file name to match your nickname), and write your nickname. I will add your skin as soon as I can.</p>
+            <hr>
+            <p>There is also a client that shows skins not from the GitHub repository, but from the official Mojang servers, that is, those skins that are used in Minecraft. <a href="https://www.nostalgiaforum.xyz/index.php?threads/317/" target="_blank">More</a></p>
+        </div>
+        <div class="content-right" style="margin-left: 48px;">
+            <h3>Download the clients</h3>
+            <a href="https://www.mediafire.com/file/48rqcranlwyvdkg/MCPE_0.8.1_with_skins.apk/file" class="btn btn-blue">Client with skins from GitHub repository</a>
+            <a href="https://www.mediafire.com/file/3searoq20h6ld90/081-MojangSkins.apk/file" class="btn btn-green">Client with skins from Mojang</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>MCPEAlpha / When distributing content from this site, please include the URL of this site / This site is not
+            affiliated with Mojang / <a href="https://discord.gg/4fv4RrTav4">Join our Discord</a></p>
+    </footer>
+
+    <script src="../js/gallerymodal.js"></script>
+</body>
+
+</html>
